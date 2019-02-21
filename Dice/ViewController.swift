@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var diceImageView1: UIImageView!
+    @IBOutlet weak var diceImageView2: UIImageView!
     @IBOutlet weak var rollButton: UIButton!
     
     override func viewDidLoad() {
@@ -18,6 +20,10 @@ class ViewController: UIViewController {
         rollButton.layer.cornerRadius = 25
     }
 
-
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        
+        
+    }
+    
 }
 
