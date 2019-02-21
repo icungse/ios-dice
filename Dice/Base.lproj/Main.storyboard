@@ -48,7 +48,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="roleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AuW-f9-aIr"/>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6um-Ku-1e4"/>
                                 </connections>
                             </button>
                         </subviews>
